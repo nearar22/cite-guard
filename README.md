@@ -51,4 +51,11 @@ scripts/deploy.py           exact-source StudioNet deployment
 scripts/verify_write.py     real post-deployment transaction
 ```
 
-Deployment addresses and verified transactions are added after the reviewed source is deployed.
+## StudioNet deployment
+
+- Contract: `0x9E743091363D760e814C2A6347F055C883b5CdbF`
+- Deployment transaction: `0x5012fa66d0cd3f2d91346d75af264c9df9ebd2bfec033140ce9cb5adeafee0dc`
+- Reviewed source commit: `326fcf69066d625236d910b6541b835c140f4bc7`
+- Contract SHA-256: `8b3924ea3ec39565196c580376519671dc1072bbd0e9045df670ad1e0841ba49`
+
+The deployment transaction reached `ACCEPTED`. A separate live write and read-back receipt is recorded in `scripts/live_verification.json`.
