@@ -9,6 +9,6 @@
   "deploymentTransaction": "0x5012fa66d0cd3f2d91346d75af264c9df9ebd2bfec033140ce9cb5adeafee0dc",
   "liveCreateTransaction": "0x2519f440b55ae9edb7a2bf7effa382ff0329fea1bb543bd974fb7190531f3b97",
   "liveCreateStatus": "ACCEPTED",
-  "publicSite": "https://cite-guard.pages.dev/",
+  "publicSite": "https://cite-guard-a0z.pages.dev/",
   "frontendBuildCommit": "9257a4643beb0497ebc07b0e71cf1cfb3a148988"
 }

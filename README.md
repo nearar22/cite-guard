@@ -53,6 +53,7 @@ scripts/verify_write.py     real post-deployment transaction
 
 ## StudioNet deployment
 
+- Public app: `https://cite-guard-a0z.pages.dev/`
 - Contract: `0x9E743091363D760e814C2A6347F055C883b5CdbF`
 - Deployment transaction: `0x5012fa66d0cd3f2d91346d75af264c9df9ebd2bfec033140ce9cb5adeafee0dc`
 - Reviewed source commit: `326fcf69066d625236d910b6541b835c140f4bc7`
