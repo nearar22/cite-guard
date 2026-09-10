@@ -1,10 +1,32 @@
 {
-  "transaction": "0x2519f440b55ae9edb7a2bf7effa382ff0329fea1bb543bd974fb7190531f3b97",
-  "status": "ACCEPTED",
+  "contract": "0x2aFe8a0c960Ac2B8e874cF3500A5606f17c07A14",
+  "transactions": {
+    "create": {
+      "hash": "0x0693bb69aaa7b96fe78ff8d0a897da7255aa260093e5c508e5cfbcfab258f759",
+      "status": {
+        "consensus": "ACCEPTED",
+        "execution": "SUCCESS"
+      }
+    },
+    "audit": {
+      "hash": "0xba9f881d051f5217df5a7065d6baef1111f4057b3bd0cd11eb80e021c5fb87f8",
+      "status": {
+        "consensus": "ACCEPTED",
+        "execution": "SUCCESS"
+      }
+    }
+  },
   "matter": {
-    "id": "matter-1",
-    "phase": "OPEN",
+    "id": "matter-2",
+    "phase": "APPEAL",
+    "overall": "CITATION_READY",
     "source_count": 2,
-    "proposition_count": 2
+    "receipt_count": 2,
+    "proposition_count": 2,
+    "finding_count": 2,
+    "quotes": [
+      "(1) the purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes;",
+      "(4) the effect of the use upon the potential market for or value of the copyrighted work."
+    ]
   }
 }

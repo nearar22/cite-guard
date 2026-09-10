@@ -55,9 +55,12 @@ scripts/verify_write.py     real post-deployment transaction
 ## StudioNet deployment
 
 - Public app: `https://cite-guard-a0z.pages.dev/`
-- Contract: `0x9E743091363D760e814C2A6347F055C883b5CdbF`
-- Deployment transaction: `0x5012fa66d0cd3f2d91346d75af264c9df9ebd2bfec033140ce9cb5adeafee0dc`
-- Reviewed source commit: `326fcf69066d625236d910b6541b835c140f4bc7`
-- Contract SHA-256: `8b3924ea3ec39565196c580376519671dc1072bbd0e9045df670ad1e0841ba49`
+- Contract: `0x2aFe8a0c960Ac2B8e874cF3500A5606f17c07A14`
+- Deployment transaction: `0x0905743ecaccdbcb4ad6a564b7db4eac6c56f2810adac486dd1dca74b7322a39`
+- Live matter transaction: `0x0693bb69aaa7b96fe78ff8d0a897da7255aa260093e5c508e5cfbcfab258f759`
+- Live successful audit: `0xba9f881d051f5217df5a7065d6baef1111f4057b3bd0cd11eb80e021c5fb87f8`
+- Live forged-quote rejection: `0xb6722188fb8dc72b8059689267a38a346b69e31386b9e723c1cea87d0848ee3f`
+- Reviewed source commit: `1474df2c31acdd238aa94bfd814a31bd5ff4cffd`
+- Contract SHA-256: `5235c09faf402b279223bb6782ea87034a96a47c94684940b55a650d9425f8f6`
 
-The deployment transaction reached `ACCEPTED`. A separate live write and read-back receipt is recorded in `scripts/live_verification.json`.
+The deployment is `FINALIZED` and its decoded source matches the reviewed repository source byte for byte. The successful audit stored two source-bound findings and two receipts. The rejected audit reached consensus with the expected contract rollback and did not mutate the matter.
