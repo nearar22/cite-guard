@@ -1,14 +1,16 @@
 {
   "account": "nearar22",
   "repository": "https://github.com/nearar22/cite-guard",
-  "reviewedContractCommit": "326fcf69066d625236d910b6541b835c140f4bc7",
-  "contractSourceSha256": "8b3924ea3ec39565196c580376519671dc1072bbd0e9045df670ad1e0841ba49",
+  "reviewedContractCommit": "1474df2c31acdd238aa94bfd814a31bd5ff4cffd",
+  "contractSourceSha256": "5235c09faf402b279223bb6782ea87034a96a47c94684940b55a650d9425f8f6",
   "network": "GenLayer StudioNet",
   "chainId": 61999,
-  "contractAddress": "0x9E743091363D760e814C2A6347F055C883b5CdbF",
-  "deploymentTransaction": "0x5012fa66d0cd3f2d91346d75af264c9df9ebd2bfec033140ce9cb5adeafee0dc",
-  "liveCreateTransaction": "0x2519f440b55ae9edb7a2bf7effa382ff0329fea1bb543bd974fb7190531f3b97",
-  "liveCreateStatus": "ACCEPTED",
+  "contractAddress": "0x2aFe8a0c960Ac2B8e874cF3500A5606f17c07A14",
+  "deploymentTransaction": "0x0905743ecaccdbcb4ad6a564b7db4eac6c56f2810adac486dd1dca74b7322a39",
+  "liveCreateTransaction": "0x0693bb69aaa7b96fe78ff8d0a897da7255aa260093e5c508e5cfbcfab258f759",
+  "liveAuditTransaction": "0xba9f881d051f5217df5a7065d6baef1111f4057b3bd0cd11eb80e021c5fb87f8",
+  "forgedQuoteRejectionTransaction": "0xb6722188fb8dc72b8059689267a38a346b69e31386b9e723c1cea87d0848ee3f",
+  "liveExecutionStatus": "SUCCESS",
   "publicSite": "https://cite-guard-a0z.pages.dev/",
-  "frontendBuildCommit": "9257a4643beb0497ebc07b0e71cf1cfb3a148988"
+  "frontendBuildCommit": "f4ce37ca68dea243f85c12f4327af8d3d62562a1"
 }
