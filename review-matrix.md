@@ -3,11 +3,14 @@
 | Mandatory requirement | Code path | Evidence | Status |
 | --- | --- | --- | --- |
 | Distinct GenLayer-native use case | proposition-level semantic source audit | README originality comparison | PASS |
-| Every material external fact is fetched and attributed | `_audit`, `_normalize` | source receipt and adversarial tests | PASS |
-| Validators independently recheck full output | `_audit.check` recomputes and compares canonical JSON | direct tests | PASS |
+| Every pinpoint quote is bound to a referenced fetched source | `_normalize`, `_quote_text` | forged quote with valid verdict and index is rejected | PASS |
+| Every material external fact is fetched and attributed | `_audit`, `_normalize` | source receipt and out-of-range attribution tests | PASS |
+| Consensus tolerates harmless wording differences | `_audit.check` refetches sources and semantically verifies the proposal | direct validator accepts wording variation and rejects wrong semantics | PASS |
 | Exact appeal protection | post-audit 48-hour deadline, creator-only new authority, one appeal | appeal tests | PASS |
 | Permissionless completion | `finalize_matter` | finalization test from second account | PASS |
-| Real frontend integration | all public methods, editable authorities, strict terminal polling | frontend tests | PASS |
-| Exact deployed source | deployment manifest and Explorer source comparison | reviewed commit `326fcf6`, deployment `0x5012fa...ee0dc` | PASS |
-| Real network transaction | create and read back a new matter | accepted tx `0x2519f4...f3b97`, `scripts/live_verification.json` | PASS |
-| Public production path | clean build and browser lifecycle | pending deployment | UNVERIFIED |
+| Real frontend integration | all public methods, editable authorities, strict terminal polling | frontend update pending corrected deployment | UNVERIFIED |
+| Exact deployed source | deployment manifest and Explorer source comparison | corrected deployment pending | UNVERIFIED |
+| Real network transaction | create, audit, source-bound appeal, and read back | corrected deployment pending | UNVERIFIED |
+| Public production read path | production site loads the corrected deployed address and latest matter | corrected deployment pending | UNVERIFIED |
+| Public production wallet write path | create from the public site with fresh browser inputs | not executed with a browser wallet | UNVERIFIED |
+| Live delayed finalization | finalize the deployed matter after its 48-hour deadline | local lifecycle passes, StudioNet deadline has not elapsed | UNVERIFIED |

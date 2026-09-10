@@ -6,7 +6,7 @@ This is an advisory citation-verification tool. It is not legal advice, a court 
 
 ## Why GenLayer
 
-Citation support is semantic. A conventional contract cannot read an authority and decide whether its wording supports a proposition. CiteGuard makes that question bounded and auditable: validators independently fetch the same sources, hash normalized content, re-evaluate every proposition and accept only the same canonical result.
+Citation support is semantic. A conventional contract cannot read an authority and decide whether its wording supports a proposition. CiteGuard makes that question bounded and auditable: the leader proposes a structured audit, while validators independently refetch every authority, verify its receipt, and judge every state, source index, and quote without requiring identical explanatory wording.
 
 ## Lifecycle
 
@@ -20,9 +20,10 @@ Citation support is semantic. A conventional contract cannot read an authority a
 
 - URL parsing requires HTTPS, rejects credentials, fragments and local hosts, and only permits named public legal repositories.
 - Query-string mirrors of the same host and path cannot occupy multiple source slots.
-- Supported and partial findings require bounded source indexes and a pinpoint quote.
+- Every nonempty pinpoint quote must occur in at least one referenced fetched source after harmless case, punctuation, and whitespace normalization.
+- Supported and partial findings require bounded source indexes and a source-bound pinpoint quote.
 - Unavailable sources become an explicit failure rather than fabricated support.
-- Validators compare the complete canonical result, including all findings and source receipts.
+- Validators semantically verify the complete proposed result and exact receipts instead of comparing independently generated prose byte for byte.
 - Transaction timeout, cancellation and undetermined status never produce a success confirmation in the frontend.
 
 ## Originality
